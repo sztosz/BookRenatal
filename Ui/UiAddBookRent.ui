@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>Dialog</class>
+    <widget class="QDialog" name="Dialog">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>282</width>
+                <height>301</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>Rent a Book</string>
+        </property>
+        <widget class="QLabel" name="label">
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>10</y>
+                    <width>46</width>
+                    <height>13</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Renter:</string>
+            </property>
+        </widget>
+        <widget class="QLabel" name="label_2">
+            <property name="geometry">
+                <rect>
+                    <x>140</x>
+                    <y>10</y>
+                    <width>46</width>
+                    <height>13</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Book:</string>
+            </property>
+        </widget>
+        <widget class="QComboBox" name="renters_comboBox">
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>30</y>
+                    <width>120</width>
+                    <height>22</height>
+                </rect>
+            </property>
+        </widget>
+        <widget class="QComboBox" name="books_comboBox">
+            <property name="geometry">
+                <rect>
+                    <x>140</x>
+                    <y>30</y>
+                    <width>131</width>
+                    <height>22</height>
+                </rect>
+            </property>
+        </widget>
+        <widget class="QCalendarWidget" name="calendar">
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>80</y>
+                    <width>261</width>
+                    <height>155</height>
+                </rect>
+            </property>
+        </widget>
+        <widget class="QLabel" name="label_3">
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>60</y>
+                    <width>111</width>
+                    <height>16</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>When was rented?</string>
+            </property>
+        </widget>
+        <widget class="QLabel" name="label_4">
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>240</y>
+                    <width>141</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>For how many days?</string>
+            </property>
+        </widget>
+        <widget class="QLineEdit" name="length_input">
+            <property name="geometry">
+                <rect>
+                    <x>120</x>
+                    <y>240</y>
+                    <width>151</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="inputMask">
+                <string/>
+            </property>
+        </widget>
+        <widget class="QDialogButtonBox" name="buttonBox">
+            <property name="geometry">
+                <rect>
+                    <x>120</x>
+                    <y>270</y>
+                    <width>152</width>
+                    <height>23</height>
+                </rect>
+            </property>
+            <property name="standardButtons">
+                <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+            </property>
+        </widget>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
